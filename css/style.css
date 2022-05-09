@@ -1,0 +1,178 @@
+*{
+
+margin: 0;
+padding: 0;
+
+}
+
+:root{
+
+  --color-pincipal: white;
+  --color-nav: hsla(240, 7%, 78%, 1);
+  --color-text: hsla(240, 9%, 89%, 1);
+
+}
+
+body{
+
+  font-family: 'Roboto', 'Sans serif';
+  text-decoration: none;
+  color: car(--color-text);
+
+
+}
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-left: 72px;
+  gap: 32px;
+  align-items: center;
+  font-weight: 400;
+  font-size: 21.6667px;
+  line-height: 22px;
+
+
+}
+
+ul{
+
+  list-style: none;
+  display: flex;
+  gap: 32px
+}
+
+li:hover{
+
+  color: white;
+  
+}
+
+
+h1, p{
+
+color: var(--color-text);
+  
+}
+
+h1{
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+
+}
+
+
+
+a{
+
+  text-decoration: none;
+  color: var(--color-nav);
+
+}
+
+
+
+ .home{
+  background-image: url(/images/bg-home.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width:100vw;
+  height: 100vh;
+  top:0;
+  z-index: -5;
+  
+}
+
+.about{
+  background-image: url(/images/bg-universe.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width:100vw;
+  height: 100vh;
+  top:0;
+  z-index: -5;
+}
+
+.exploration{
+  background-image: url(/images/bg-exploration.png);
+   background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width:100vw;
+  height: 100vh;
+  top:0;
+  z-index: -5;
+}
+
+.x404{
+  background-image: url(/images/bg-universe.png);
+  background-repeat: no-repeat;
+  filter: grayscale(1);
+  background-size: cover;
+  position: absolute;
+  width:100vw;
+  height: 100vh;
+  top:0;
+  z-index: -5;
+}
+
+
+.home, .about, .exploration, .x404{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+  
+
+.home .content{
+
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+ 
+  
+}
+
+.home .content h1{
+
+  margin-bottom: 32px;
+  
+}
+  
+
+.home .content a{
+
+align-items: center;
+border: 2px solid white;
+padding: 12px 32px;
+width: 195px;
+border-radius: 5px;
+
+}
+
+.about, .exploration,  .x404{
+
+padding-left: 102px;
+
+}
+
+.about p, .exploration p{
+
+  margin-top: 16px;
+  width: 648px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  
+  }
+
+ 
