@@ -1,32 +1,24 @@
 # SinglePageAplicationUniverse
 Estudos sobre single page aplication
 
-# HZC-Skate-Community
-
-Página web criada em HTML, CSS e um poquinho de JS a partir de layout no figma.
-Projeto parte da formação HTML e CCS da Alura
-
-Deploy:https://paru369.github.io/HZC-Skate-Community/
-
-<img src="./assets/img/gif.gif"> 
+SPA em HTML, CSS, JS.
 
 
 
-## 🚀 Em excucução 
 
-Contém as páginas iniciais
+## 🚀 Excucução 
+
+Baixar os arquivos e rodar em um servidor NODE.js
 
 ### 📋 Pré-requisitos
 
-Executável em qualquer navegador
+Node.js + Browser
 
-### 🔧 Instalação
 
-Não carece de instalação
 
 ## 📦 Desenvolvimento
 
-É uma página HTML estilizada em CSS, aplicável em qualquer sistema WEB
+Single Page Aplication
 
 ## 🛠️ Construído com
 
@@ -48,7 +40,7 @@ em construção
 
 ## 🎁 Agradecimentos
 
-* Alura e instrutor Matheus Alberto
+ * **Rocketseat**
 
 
 ---
